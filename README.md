@@ -150,15 +150,15 @@ Here's the approximate part costs as of 2024. Costs shown are all per-item, base
 | LED harness | 1.00 |
 | HiLetgo XL6009 DC-DC boost | 1.90 |
 | 9V battery harness | 1.50 |
-| 1-channel fasteners | 1.14  |
+| 1-channel fasteners | 1.15  |
 | Adafruit 5991 USB-C power | 9.95 |
-| 4-channel fasteners | 25.68 |
+| 4-channel fasteners | 25.65 |
 
 Nearly half of the fasteners cost is from the washers. In retrospect, I should have selected a cheaper part number, or omitted the washers.
 
-For the 1-channel assembly, total cost is 6.35 + 2.00 + 1.00 + 1.90 + 1.25 + 1.14 = $12.75 (plus the cost of the LED strip and 9V battery).
+For the 1-channel assembly, total cost is 6.35 + 2.00 + 1.00 + 1.90 + 1.50 + 1.15 = $13.90 (plus the cost of the LED strip and 9V battery).
 
-For the 4-channel assembly, total cost is 4 * (6.35 + 2.00 + 1.00) + 9.95 + 25.68 = $73.00 (plus the cost of the LED strips and the USB-C battery).
+For the 4-channel assembly, total cost is 4 * (6.35 + 2.00 + 1.00) + 9.95 + 25.65 = $73.00 (plus the cost of the LED strips and the USB-C battery).
 
 ### upiez cost detail
 
