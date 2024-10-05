@@ -57,7 +57,23 @@ For an easier starting point, see also the (TBD link) breadboard version of this
 
 <img alt="Photo of single channel stack-up with power system" src="https://github.com/jwnimmer/upiez/raw/main/images/single.jpg" width="200px" />
 
-TBD
+This is the single channel assembly for use with a single sensor, e.g., a snare drum or bass drum.
+
+The upiez PCB must be externally powered, using a power source voltage that matches the voltage of the LED strip. For my build, we used this [12V LED strip](https://www.amazon.com/gp/product/B09MRK3CHC) so our power source must be 12V.
+
+When choosing a LED strip, also consider how much current it needs. According to a review comment on that product, the full 5 meter length uses 1.94 amps @ 12 volts = 23 watts. The max current of the upiez is 3 amps, so the 1.94 amps is safely within the limit.
+
+In our case, we never put a full 5 meters of lights on a single drum anyway. That would be a lot! We only wrapped the rim of the drum head, so approx 1 meter for snares or 2 meters for a large bass drum. The LED strip can easily be cut into segments for the necessary lengths.
+
+This brings the power requirements down into a regime where a 9V battery can handle the load, we just need to boost it from 9V to 12V. For that, we used these [DC-DC boost modules](https://www.amazon.com/gp/product/B07BNHR4HW). Checking the ballpark math: 2 meters of LED is ~9 watts, which we source as ~9V @ ~1A. Typical sustained current from a 9V cell is around 1A with burst around 2A, so the math checks out okay.
+
+Another way to get to 12V would be with an 8-pack of AA or AAA batteries, to avoid the need for the boost converter. I never tried this, because I am somewhat skeptical it would work well -- as you use the 1.5V batteries, their voltage droops pretty quickly to the point where your 12V supply is now 11V or 10V, and that reaches the point where your LEDs will get dim and then stop working entirely -- there is a minimum voltage floor required to illuminate all of the diodes, and it's in that neighborhood. Also the 8-pack is larger and heavier than the single 9V. Using the boost converter ensures consistent brightness so long as the battery has any juice left at all.
+
+### Single channel version: assembly details
+
+The DC-DC boost module linked above has a trimmer to adjust its output voltage. Before wiring it to the upiez you MUST connect it to a load (e.g., 10 kohm resistor) and supply (9V battery) and adjust its trimmer until the output is 12V on your multimeter. If its trimmer is in the wrong position, the boost module can output up to 35V which is enough to fry the upiez (max 20V).
+
+To turn the kit on and off, instead of (un)plugging the battery we found it a lot easier to install a [rocker switch](https://www.amazon.com/dp/B07S2QJKTX) as part of the battery harness. Then the battery can stay plugged in, but still power off the kit easily.
 
 ## Quad channel version
 
