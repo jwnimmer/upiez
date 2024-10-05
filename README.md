@@ -92,6 +92,17 @@ This photo shows how we chose to assemble the 1-channel kit:
 
 TBD
 
+### Quad channel version: assembly details
+
+TBD
+
+* Use the following mechanical fasteners (required quantities listed are pieces, not packs):
+  * 4x [93805A120](https://www.mcmaster.com/nav/enter.asp?partnum=93805A120) 18-8 Stainless Steel Threaded Rod, M2.5 x 0.45 mm Thread Size, 50 mm Long, Packs of 10
+  * 8x [91828A113](https://www.mcmaster.com/nav/enter.asp?partnum=91828A113)	18-8 Stainless Steel Hex Nut, M2.5 x 0.45 mm Thread, Packs of 100
+  * 12x [94669A104](https://www.mcmaster.com/nav/enter.asp?partnum=94669A104)	Aluminum Unthreaded Spacer, 4.500 mm OD, 10 mm Long, for M2.5 Screw Size
+  * 4x [94669A094](https://www.mcmaster.com/nav/enter.asp?partnum=94669A094) Aluminum Unthreaded Spacer, 4.500 mm OD, 3 mm Long, for M2.5 Screw Size
+  * 40x [90940A102](https://www.mcmaster.com/nav/enter.asp?partnum=90940A102) Polycarbonate Plastic Washer for M2.5 Screw Size, 2.7 mm ID, 5.0 mm OD, Packs of 25
+
 ## PCB assembly
 
 TBD
