@@ -2,16 +2,21 @@
 
 The upiez is a printed circuit board with a piezoelectric sensor input to detect vibration (e.g., when a drum head is hit), and when a strong enough vibration is sensed it switches on its power output (e.g., lighting up a LED strip) for a configurable, short amount of time.
 
+<img alt="Rendering of fully-assembled PCB (including through-hole connectors)" src="https://github.com/jwnimmer/upiez/raw/main/images/pcb_render.png" width="300px" /> <img alt="Photo of top of assembled SMT PCB (no through-hole connectors)" src="https://github.com/jwnimmer/upiez/raw/main/images/pcba_top.jpg" width="300px" />
+
 The board accepts an input voltage from 4V to 20V, and can power up to a 3A load.  The input voltage should match whatever is used by the load (LED strip) -- it does not regulate the output, it only switches the power on and off.
 
 The board offers two trimmers for adjustment -- one trimmer to adjust the piezo input sensitivity trigger, and one trimmer to adjust the time the LED stays illuminated after each trigger.
 
-<img alt="Photo of top of assembled SMT PCB (no through-hole connectors)" src="https://github.com/jwnimmer/upiez/raw/main/images/pcba_top.jpg" width="200px" />
 
 Connectors:
 * LED output is on a 5.5/2.1mm barrel jack ([PJ-063AH](https://www.digikey.com/en/products/detail/cui-devices/PJ-063AH/2161208)) at J1.
-* Piezo input is on 2-pin header (0.100" pitch) at J2.
+* Piezo input is on a 2-pin header (0.100" pitch) at J2.
 * Power input is on solder pads for hard-wiring (on the bottom).
+
+Size:
+* PCB 28.2mm x 20.3mm (not including connector overhang).
+* Mounting hole spacing 23.1mm x 15.2mm for M2.5 screws.
 
 Designed summer 2024 for the LWHS drum line.
 
