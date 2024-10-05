@@ -113,7 +113,21 @@ TBD
 
 TBD
 
-## Harness assembly
+## Harnesses
+
+### Piezo harness 
+
+TBD
+
+### LED harness
+
+TBD
+
+### Single channel power / battery
+
+TBD
+
+### Dual channel power pigtails
 
 TBD
 
@@ -123,4 +137,6 @@ TBD
 
 ## Credits
 
-TBD
+Reading other people's take on this kind of project was a great help in my own design. My primary sources were:
+* Davide Gironi: https://davidegironi.blogspot.com/2014/06/drum-light-trigger-that-uses-leds-ne555.html
+* Sam vs Sound: https://samvssound.com/2017/11/24/555-based-piezo-trigger/
