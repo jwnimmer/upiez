@@ -119,6 +119,10 @@ TBD
 
 TBD
 
+[1" piezo sensor with with leads](https://www.amazon.com/dp/B07B8PFJCX)
+
+[22 AWG stranded 2-conductor cable](https://www.amazon.com/dp/B077XBWX8V)
+
 ### LED harness
 
 TBD
@@ -134,6 +138,37 @@ TBD
 ## Mechanical drawing
 
 TBD
+
+## Costs
+
+Here's the approximate part costs as of 2024. Costs shown are all per-item, based on qty 20 purchase.
+
+| Item | Cost (USD) |
+| --- | --- | 
+| upiez board (assembled) | 6.35 |
+| Piezo harness | 2.00 |
+| LED harness | 1.00 |
+| HiLetgo XL6009 DC-DC boost | 1.90 |
+| 9V battery harness | 1.50 |
+| 1-channel fasteners | 1.14  |
+| Adafruit 5991 USB-C power | 9.95 |
+| 4-channel fasteners | 25.68 |
+
+Nearly half of the fasteners cost is from the washers. In retrospect, I should have selected a cheaper part number, or omitted the washers.
+
+For the 1-channel assembly, total cost is 6.35 + 2.00 + 1.00 + 1.90 + 1.25 + 1.14 = $12.75 (plus the cost of the LED strip and 9V battery).
+
+For the 4-channel assembly, total cost is 4 * (6.35 + 2.00 + 1.00) + 9.95 + 25.68 = $73.00 (plus the cost of the LED strips and the USB-C battery).
+
+### upiez cost detail
+
+| Item | Cost (USD) |
+| --- | --- | 
+| Board (unpopulatd) | 1.14 |
+| SMT components | 2.26 |
+| SMT Assembly | 1.50 |
+| THT components | 1.45 |
+| THT assembly | 0.00 (self) |
 
 ## Credits
 
