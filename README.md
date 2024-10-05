@@ -2,7 +2,9 @@
 
 The upiez is a printed circuit board with a piezoelectric sensor input to detect vibration (e.g., when a drum head is hit), and when a strong enough vibration is sensed it switches on its power output (e.g., lighting up a LED strip) for a configurable, short amount of time.
 
-<img alt="Rendering of fully-assembled PCB (including through-hole connectors)" src="https://github.com/jwnimmer/upiez/raw/main/images/pcb_render.png" height="200px" /> <img alt="Photo of top of assembled SMT PCB (no through-hole connectors)" src="https://github.com/jwnimmer/upiez/raw/main/images/pcba_top.jpg" height="200px" />
+<img alt="Photograph of fully-assembled PCB (including through-hole connectors)" src="https://github.com/jwnimmer/upiez/raw/main/images/upiez_profile.jpg" height="200px" /> <img alt="Rendering of fully-assembled PCB (including through-hole connectors)" src="https://github.com/jwnimmer/upiez/raw/main/images/pcb_render.png" height="200px" />
+
+<img alt="Photo of top of assembled SMT PCB (no through-hole connectors)" src="https://github.com/jwnimmer/upiez/raw/main/images/pcba_top.jpg" height="200px" /> <img alt="Photo of bottom of PCB with wire leads attached" src="https://github.com/jwnimmer/upiez/raw/main/images/bottom.jpg" height="200px" />
 
 The board accepts an input voltage from 4V to 20V, and can power up to a 3A load.  The input voltage should match whatever is used by the load (LED strip) -- it does not regulate the output, it only switches the power on and off.
 
