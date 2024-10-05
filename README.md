@@ -71,14 +71,14 @@ Another way to get to 12V would be with an 8-pack of AA or AAA batteries, to avo
 
 ### Single channel version: assembly details
 
-The DC-DC boost module linked above has a trimmer to adjust its output voltage. Before wiring it to the upiez you MUST connect it to a load (e.g., 10 kohm resistor) and supply (9V battery) and adjust its trimmer until the output is 12V on your multimeter. If its trimmer is in the wrong position, the boost module can output up to 35V which is enough to fry the upiez (max 20V).
+The DC-DC boost module linked above has a trimmer to adjust its output voltage. Before wiring it to the upiez you MUST connect it to a load (e.g., 1k resistor) and supply (9V battery) and adjust its trimmer until the output is 12V on your multimeter. If its trimmer is in the wrong position, the boost module can output up to 35V which is enough to fry the upiez (max 20V).
 
 To turn the kit on and off, instead of (un)plugging the battery we found it a lot easier to install a [rocker switch](https://www.amazon.com/dp/B07S2QJKTX) as part of the battery harness. Then the battery can stay plugged in, but still power off the kit easily.
 
 <img alt="Photo of 1-channel channel stack-up with mechanical details" src="https://github.com/jwnimmer/upiez/raw/main/images/single_assy.jpg" width="200px" />
 
 This photo shows how we chose to assemble the 1-channel kit:
-* On the "inner" side of each of the two boards in the stack, cover metal surfaces with kapton take to prevent a short circuit.
+* On the "inner" side of each of the two boards in the stack, cover metal surfaces with kapton tape to prevent a short circuit.
 * Use ~3 pieces of double-sided tape as a spacer under each of the two screw holes on the side of the upiez with the small green LEDs (D1 & D2, top of photo).
 * Use the following mechanical fasteners (near C4, bottom right in photo) to attach across a mounting hole in each of the two boards:
   * [91292A014](https://www.mcmaster.com/nav/enter.asp?partnum=91292A014) 18-8 Stainless Steel Socket Head Screw, M2.5 x 0.45 mm Thread, 10 mm Long, Packs of 100
