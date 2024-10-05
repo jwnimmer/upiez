@@ -2,7 +2,7 @@
 
 The upiez is a printed circuit board with a piezoelectric sensor input to detect vibration (e.g., when a drum head is hit), and when a strong enough vibration is sensed it switches on its power output (e.g., lighting up a LED strip) for a configurable, short amount of time.
 
-<img alt="Rendering of fully-assembled PCB (including through-hole connectors)" src="https://github.com/jwnimmer/upiez/raw/main/images/pcb_render.png" width="300px" /> <img alt="Photo of top of assembled SMT PCB (no through-hole connectors)" src="https://github.com/jwnimmer/upiez/raw/main/images/pcba_top.jpg" width="300px" />
+<img alt="Rendering of fully-assembled PCB (including through-hole connectors)" src="https://github.com/jwnimmer/upiez/raw/main/images/pcb_render.png" height="200px" /> <img alt="Photo of top of assembled SMT PCB (no through-hole connectors)" src="https://github.com/jwnimmer/upiez/raw/main/images/pcba_top.jpg" height="200px" />
 
 The board accepts an input voltage from 4V to 20V, and can power up to a 3A load.  The input voltage should match whatever is used by the load (LED strip) -- it does not regulate the output, it only switches the power on and off.
 
@@ -94,7 +94,9 @@ A single-channel version of upiez is great, but in a pinch it could be built on 
 
 We designed upiez to use right-angle connectors and to match the footprint of the [Adafruit 5991](https://www.adafruit.com/product/5991#tutorials) USB-C power board, so that we can stack modules for multi-channel operation. The 5991 offers DIP switches to select an output voltage (5-20V). The important point is to also choose a USB-C PD source that is compatible with the voltage you need. We used the [Anker Nano Power Bank 30W](https://www.amazon.com/gp/product/B0C9CJKCH3) which can handle [many output voltages](https://www.anker.com/products/a1259-built-in-cable-power-bank-10000mah#productSpecs). There are probably cheaper options, but the quality and usability of Anker products is top notch and now we have a good power bank to use on vacations as well.
 
-<img src="https://cdn-shop.adafruit.com/970x728/5991-05.jpg" height="200px" /> <img src="https://m.media-amazon.com/images/I/614OfiBkyZL._AC_SL1500_.jpg" height="200px" />
+| Adafruit 5991 | Anker Nano |
+| --- | --- |
+| <img src="https://cdn-shop.adafruit.com/970x728/5991-05.jpg" height="200px" /> | <img src="https://m.media-amazon.com/images/I/614OfiBkyZL._AC_SL1500_.jpg" height="200px" /> |
 
 ### Quad channel version: assembly details
 
