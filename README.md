@@ -75,6 +75,17 @@ The DC-DC boost module linked above has a trimmer to adjust its output voltage. 
 
 To turn the kit on and off, instead of (un)plugging the battery we found it a lot easier to install a [rocker switch](https://www.amazon.com/dp/B07S2QJKTX) as part of the battery harness. Then the battery can stay plugged in, but still power off the kit easily.
 
+<img alt="Photo of 1-channel channel stack-up with mechanical details" src="https://github.com/jwnimmer/upiez/raw/main/images/single_assy.jpg" width="200px" />
+
+This photo shows how we chose to assemble the 1-channel kit:
+* On the "inner" side of each of the two boards in the stack, cover metal surfaces with kapton take to prevent a short circuit.
+* Use ~3 pieces of double-sided tape as a spacer under each of the two screw holes on the side of the upiez with the small green LEDs (D1 & D2, top of photo).
+* Use the following mechanical fasteners (near C4, bottom right in photo) to attach across a mounting hole in each of the two boards:
+  * [91292A014](https://www.mcmaster.com/nav/enter.asp?partnum=91292A014) 18-8 Stainless Steel Socket Head Screw, M2.5 x 0.45 mm Thread, 10 mm Long, Packs of 100
+  * [94669A094](https://www.mcmaster.com/nav/enter.asp?partnum=94669A094) Aluminum Unthreaded Spacer, 4.500 mm OD, 3 mm Long, for M2.5 Screw Size
+  * [91828A113](https://www.mcmaster.com/nav/enter.asp?partnum=91828A113)	18-8 Stainless Steel Hex Nut, M2.5 x 0.45 mm Thread, Packs of 100
+  * [90940A102](https://www.mcmaster.com/nav/enter.asp?partnum=90940A102) Polycarbonate Plastic Washer for M2.5 Screw Size, 2.7 mm ID, 5.0 mm OD, Packs of 25
+
 ## Quad channel version
 
 <img alt="Photo of 4-channel channel stack-up with USB power" src="https://github.com/jwnimmer/upiez/raw/main/images/quads.jpg" width="200px" />
