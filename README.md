@@ -164,9 +164,9 @@ For the 4-channel assembly, total cost is 4 * (6.35 + 2.00 + 1.00) + 9.95 + 25.6
 
 | Item | Cost (USD) |
 | --- | --- | 
-| Board (unpopulatd) | 1.14 |
+| Board (unpopulated) | 1.14 |
 | SMT components | 2.26 |
-| SMT Assembly | 1.50 |
+| SMT assembly | 1.50 |
 | THT components | 1.45 |
 | THT assembly | 0.00 (self) |
 
