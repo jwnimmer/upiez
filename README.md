@@ -143,16 +143,16 @@ TBD
 
 Here's the approximate part costs as of 2024. Costs shown are all per-item, based on qty 20 purchase.
 
-| Item | Cost (USD) |
-| --- | --- | 
-| upiez board (assembled) | 6.35 |
-| Piezo harness | 2.00 |
-| LED harness | 1.00 |
-| HiLetgo XL6009 DC-DC boost | 1.90 |
-| 9V battery harness | 1.50 |
-| 1-channel fasteners | 1.15  |
-| Adafruit 5991 USB-C power | 9.95 |
-| 4-channel fasteners | 25.65 |
+| Item | Cost (USD) | 1-channel qty | 4-channel qty |
+| --- | --- | --- | --- | 
+| upiez board (assembled) | 6.35 | 1 | 4 |
+| Piezo harness | 2.00 | 1 | 4 |
+| LED harness | 1.00 | 1 | 4 |
+| HiLetgo XL6009 DC-DC boost | 1.90 | 1 | |
+| 9V battery harness | 1.50 | 1 | |
+| 1-channel fasteners | 1.15  | 1 | |
+| Adafruit 5991 USB-C power | 9.95 | | 1 |
+| 4-channel fasteners | 25.65 | | 1 |
 
 Nearly half of the fasteners cost is from the washers. In retrospect, I should have selected a cheaper part number, or omitted the washers.
 
