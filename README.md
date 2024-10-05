@@ -88,9 +88,13 @@ This photo shows how we chose to assemble the 1-channel kit:
 
 ## Quad channel version
 
-<img alt="Photo of 4-channel channel stack-up with USB power" src="https://github.com/jwnimmer/upiez/raw/main/images/quads.jpg" width="200px" />
+<img alt="Photo of 4-channel channel stack-up with USB power" src="https://github.com/jwnimmer/upiez/raw/main/images/quads.jpg" width="300px" />
 
-TBD
+A single-channel version of upiez is great, but in a pinch it could be built on a breadboard instead (see link TBD). The raison d'être for upiez is multi-channel operation. (Building a 4- or 6-channel version on a breadboard is not very practical.)
+
+We designed upiez to use right-angle connectors and to match the footprint of the [Adafruit 5991](https://www.adafruit.com/product/5991#tutorials) USB-C power board, so that we can stack modules for multi-channel operation. The 5991 offers DIP switches to select an output voltage (5-20V). The important point is to also choose a USB-C PD source that is compatible with the voltage you need. We used the [Anker Nano Power Bank 30W](https://www.amazon.com/gp/product/B0C9CJKCH3) which can handle [many output voltages](https://www.anker.com/products/a1259-built-in-cable-power-bank-10000mah#productSpecs). There are probably cheaper options, but the quality and usability of Anker products is top notch and now we have a good power bank to use on vacations as well.
+
+<img src="https://cdn-shop.adafruit.com/970x728/5991-05.jpg" height="200px" /> <img src="https://m.media-amazon.com/images/I/614OfiBkyZL._AC_SL1500_.jpg" height="200px" />
 
 ### Quad channel version: assembly details
 
