@@ -44,8 +44,9 @@ For an easier starting point, see also the (TBD link) breadboard version of this
 * Output stage:
   * When the timer output (pin 3) goes high:
     * D2 illuminates; this is helpful for debugging.
-    * Q2 turns on (connecting pins 2 and 2), thus providing a ground for the barrel jack J1's negative terminal.
-      * J1 positive terminal is always connected to the power input (VDC coming in from J3).
+    * Q2 turns on (connecting pins 2 and 3), thus providing a ground for the barrel jack J1's negative terminal.
+      * The barrel jack J1's positive terminal is always connected to the VDC power input.
+      * In other words, we turn the LED output on and off by connecting and disconnting its ground, not VDC.
 
 ## Single channel version
 
