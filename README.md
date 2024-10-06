@@ -10,7 +10,6 @@ The board accepts an input voltage from 4V to 20V, and can power up to a 3A load
 
 The board offers two trimmers for adjustment -- one trimmer to adjust the piezo input sensitivity trigger, and one trimmer to adjust the time the LED stays illuminated after each trigger.
 
-
 Connectors:
 * LED output is on a 5.5/2.1mm barrel jack ([PJ-063AH](https://www.digikey.com/en/products/detail/cui-devices/PJ-063AH/2161208)) at J1.
 * Piezo input is on a 2-pin header (0.100" pitch) at J2.
@@ -21,6 +20,8 @@ Size:
 * Mounting hole spacing 23.1mm x 15.2mm for M2.5 screws.
 
 Designed summer 2024 for the LWHS drum line.
+
+This project requires wire stripping and soldering skills, and ideally a multi-meter.
 
 For an easier starting point, see also the (TBD link) breadboard version of this project.
 
@@ -127,7 +128,7 @@ TBD
 
 ### LED harness
 
-TBD
+This is the simplest of the harnesses. Your LED strip might already come with barrel connector(s) built-in. If not, buy a pack of 5.5mm/2.1mm "male" barrel jacks with leads and solder to your LED strip(s). For example, here are [jacks with 20-inch leads](https://www.amazon.com/dp/B07SV2WY4S), or if you need longer try something like [double-ended 10' cables](https://www.amazon.com/dp/B09399KNJT) and cut them in half. For stress relief, cover the LED-wire joint with heat shrink tubing.
 
 ### Single channel power / battery
 
