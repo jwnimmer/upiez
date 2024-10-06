@@ -120,17 +120,26 @@ TBD
 
 ### Piezo harness 
 
-TBD
+The upiez piezo input is on J2, via a standard 0.100" 2-pin header. There are many ways to wire up a cable to this, I'll detail the one I used:
 
-[1" piezo sensor with with leads](https://www.amazon.com/dp/B07B8PFJCX)
-
-[22 AWG stranded 2-conductor cable](https://www.amazon.com/dp/B077XBWX8V)
+* Use pre-made [Female Breadboard Jumper Wires 2.54mm](https://www.amazon.com/dp/B07GD1W1VL) for the cable end that connects to upiez.
+  * Peel off a pair of two wires, and then cut the jumper in half (so one end is connectorized and the other end is wire leads).
+* Use [22 AWG stranded 2-conductor cable](https://www.amazon.com/dp/B077XBWX8V) for the long cable run.
+* Use [1" piezo sensor with with leads](https://www.amazon.com/dp/B07B8PFJCX) for the sensor at the end of the cable.
+  * Add dabs of hot glue on the piezo discs to secure the tips of the wires to the metal. The connections from the piezo wire leads to the solder blobs on the piezo discs are the weakest link and *will* break off unless you reinforce it with glue.
+* Prepare and stage appropriately sized [heat shrink](https://www.amazon.com/gp/product/B0BG6V4HV4) on all of the wires / cables.
+  * Use a small piece on the red (positive) joints, to prevent shorting to the nearby ground joint.
+  * Wrapping the black (negative) joints is also fine but probably not necessary.
+  * Use a larger piece around the whole cable at the joint, for mechanical stress relief.
+* Strip the ends of wires as necessary, solder the connections, slide the heat shrink into place and shrink it.
 
 ### LED harness
 
 This is the simplest of the harnesses. Your LED strip might already come with barrel connector(s) built-in. If not, buy a pack of 5.5mm/2.1mm "male" barrel jacks with leads and solder to your LED strip(s). For example, here are [jacks with 20-inch leads](https://www.amazon.com/dp/B07SV2WY4S), or if you need longer try something like [double-ended 10' cables](https://www.amazon.com/dp/B09399KNJT) and cut them in half. For stress relief, cover the LED-wire joint with heat shrink tubing.
 
 ### Single channel power / battery
+
+[22 AWG stranded 2-conductor cable](https://www.amazon.com/dp/B077XBWX8V)
 
 TBD
 
