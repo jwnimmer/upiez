@@ -1,4 +1,4 @@
-<img alt="Video of drum with upiez lights" src="https://github.com/jwnimmer/upiez/raw/main/images/feature.gif" height="400px" />
+https://github.com/user-attachments/assets/209be3a4-444d-4c55-9051-d0b7a3d1a6b6
 
 # upiez
 
