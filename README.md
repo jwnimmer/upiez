@@ -1,3 +1,5 @@
+<img alt="Video of drum with upiez lights" src="https://github.com/jwnimmer/upiez/raw/main/images/feature.gif" height="400px" />
+
 # upiez
 
 The upiez is a printed circuit board with a piezoelectric sensor input to detect vibration (e.g., when a drum head is hit), and when a strong enough vibration is sensed it switches on its power output (e.g., lighting up a LED strip) for a configurable, short amount of time.
@@ -58,7 +60,7 @@ For an easier starting point, see also the (TBD link) breadboard version of this
 
 ## Single channel version
 
-<img alt="Photo of single channel stack-up with power system" src="https://github.com/jwnimmer/upiez/raw/main/images/single.jpg" width="200px" />
+<img alt="Photo of single channel stack-up with power system" src="https://github.com/jwnimmer/upiez/raw/main/images/single.jpg" width="200px" /> <img alt="Photo of single channel fully wired" src="https://github.com/jwnimmer/upiez/raw/main/images/full_assy.jpg" width="200px" />
 
 This is the single channel assembly for use with a single sensor, e.g., a snare drum or bass drum.
 
@@ -135,10 +137,13 @@ In our first build we soldered J1 then J2 then the wires. This ended up being so
 
 ### Piezo harness 
 
+<img alt="Photo of piezo harness" src="https://github.com/jwnimmer/upiez/raw/main/images/piezo_harness.jpg" width="400px" />
+
 The upiez piezo input is on J2, via a standard 0.100" 2-pin header. There are many ways to wire up a cable to this, I'll detail the one I used:
 
 * Use pre-made [Female Breadboard Jumper Wires 2.54mm](https://www.amazon.com/dp/B07GD1W1VL) for the cable end that connects to upiez.
   * Peel off a pair of two wires, and then cut the jumper in half (so one end is connectorized and the other end is wire leads).
+    * <img alt="Photo of piezo harness" src="https://github.com/jwnimmer/upiez/raw/main/images/piezo_conn_cut.jpg" width="200px" />
 * Use [22 AWG stranded 2-conductor cable](https://www.amazon.com/dp/B077XBWX8V) for the long cable run.
 * Use [1" piezo sensor with with leads](https://www.amazon.com/dp/B07B8PFJCX) for the sensor at the end of the cable.
   * Add dabs of hot glue on the piezo discs to secure the tips of the wires to the metal. The connections from the piezo wire leads to the solder blobs on the piezo discs are the weakest link and *will* break off unless you reinforce it with glue.
@@ -146,9 +151,12 @@ The upiez piezo input is on J2, via a standard 0.100" 2-pin header. There are ma
   * Use a small piece on the red (positive) joints, to prevent shorting to the nearby ground joint.
   * Wrapping the black (negative) joints is also fine but probably not necessary.
   * Use a larger piece around the whole cable at the joint, for mechanical stress relief.
+    <img alt="Photo of single channel fully wired" src="https://github.com/jwnimmer/upiez/raw/main/images/heat_shrink_detail.jpg" width="400px" />
 * Strip the ends of wires as necessary, solder the connections, slide the heat shrink into place and shrink it.
 
 ### LED harness
+
+<img alt="Photo of LED harness" src="https://github.com/jwnimmer/upiez/raw/main/images/led_harness.jpg" width="400px" />
 
 This is the simplest of the harnesses. Your LED strip might already come with barrel connector(s) built-in. If not, buy a pack of 5.5mm/2.1mm "male" barrel jacks with leads and solder to your LED strip(s). For example, here are [jacks with 20-inch leads](https://www.amazon.com/dp/B07SV2WY4S), or if you need longer try something like [double-ended 10' cables](https://www.amazon.com/dp/B09399KNJT) and cut them in half. For stress relief, cover the LED-wire joint with heat shrink tubing.
 
