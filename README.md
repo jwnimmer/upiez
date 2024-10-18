@@ -4,7 +4,7 @@ https://github.com/user-attachments/assets/209be3a4-444d-4c55-9051-d0b7a3d1a6b6
 
 The upiez is a printed circuit board with a piezoelectric sensor input to detect vibration (e.g., when a drum head is hit), and when a strong enough vibration is sensed it switches on its power output (e.g., lighting up a LED strip) for a configurable, short amount of time.
 
-<img alt="Photograph of fully-assembled PCB (including through-hole connectors)" src="https://github.com/jwnimmer/upiez/raw/main/images/upiez_profile.jpg" height="200px" /> <img alt="Rendering of fully-assembled PCB (including through-hole connectors)" src="https://github.com/jwnimmer/upiez/raw/main/images/pcb_render.png" height="200px" />
+<img alt="Photograph of fully-assembled PCB (including through-hole connectors)" src="https://github.com/jwnimmer/upiez/raw/main/images/upiez_profile.jpg" height="200px" /> <img alt="Rendering of fully-assembled PCB (including through-hole connectors)" src="https://github.com/jwnimmer/upiez/raw/main/images/pcb_render.png" height="200px" /> <img alt="Photo of single channel fully wired" src="https://github.com/jwnimmer/upiez/raw/main/images/full_assy.jpg" height="200px" />
 
 <img alt="Photo of top of assembled SMT PCB (no through-hole connectors)" src="https://github.com/jwnimmer/upiez/raw/main/images/pcba_top.jpg" height="200px" /> <img alt="Photo of bottom of PCB with wire leads attached" src="https://github.com/jwnimmer/upiez/raw/main/images/bottom.jpg" height="200px" />
 
@@ -60,7 +60,7 @@ For an easier starting point, see also the (TBD link) breadboard version of this
 
 ## Single channel version
 
-<img alt="Photo of single channel stack-up with power system" src="https://github.com/jwnimmer/upiez/raw/main/images/single.jpg" width="200px" /> <img alt="Photo of single channel fully wired" src="https://github.com/jwnimmer/upiez/raw/main/images/full_assy.jpg" width="200px" />
+<img alt="Photo of single channel stack-up with power system" src="https://github.com/jwnimmer/upiez/raw/main/images/single.jpg" width="200px" /> <img alt="Photo of single channel fully wired" src="https://github.com/jwnimmer/upiez/raw/main/images/full_assy.jpg" width="300px" />
 
 This is the single channel assembly for use with a single sensor, e.g., a snare drum or bass drum.
 
