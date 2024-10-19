@@ -1,0 +1,20 @@
+### Footprint positions - created on 2024-09-07T16:48:37-0700 ###
+### Printed by KiCad version 8.0.4
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                                   PosX       PosY       Rot  Side
+C1        1uF       C_0603_1608Metric                      22.4028    -5.6388    0.0000  top
+C2        1uF       C_0603_1608Metric                      26.7716    -7.0104   90.0000  top
+C3        1uF       C_0603_1608Metric                      14.0462   -15.0368  -90.0000  top
+C4        1uF       C_0603_1608Metric                       6.9342   -16.0528  -90.0000  top
+D1        ~         LED_0603_1608Metric                    27.1780   -10.0482   90.0000  top
+D2        ~         LED_0603_1608Metric                    27.1780   -13.2232  -90.0000  top
+Q1        DMN2046U  SOT-23-3                                2.3368    -7.3000    0.0000  top
+Q2        DMN2046U  SOT-23-3                               22.9108   -13.1724  180.0000  top
+R1        330       R_0402_1005Metric                      21.0058   -15.5194    0.0000  top
+R2        330       R_0402_1005Metric                      25.4762   -12.4104   90.0000  top
+U1        TLC555    SOIC-8_3.9x4.9mm_P1.27mm                3.9624   -11.8110    0.0000  top
+U2        AP7380    SOT-89-3                               23.1188    -8.9439  180.0000  top
+VR1       100K      Potentiometer_Bourns_3314J_Vertical    10.6680   -16.8148  180.0000  top
+VR2       100K      Potentiometer_Bourns_3314J_Vertical    17.3990   -16.8148  180.0000  top
+## End
