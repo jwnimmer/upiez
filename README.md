@@ -124,7 +124,7 @@ I started from the USB board and worked my way up. It's probably fine either way
 
 ## PCB assembly
 
-<img alt="Bottom side of panelized PCB" src="https://github.com/jwnimmer/upiez/raw/main/images/panelized.jpg" height="300px" />
+<img alt="Bottom side of panelized PCB" src="https://github.com/jwnimmer/upiez/raw/main/images/panelized.jpg" height="300px" /> <img alt="Photo of bottom of PCB with wire leads attached" src="https://github.com/jwnimmer/upiez/raw/main/images/bottom.jpg" height="200px" />
 
 We ordered the boards from PcbWay, including SMT component sourcing and assembly. Because of the small size of the board, it is processed and shipped as panelized (2 x 2) with break-away rails (so must be ordered in multiples of 4). The first step for finishing up the assembly is to carefully break all of the board off of their rails.
 
