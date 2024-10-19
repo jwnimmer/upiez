@@ -82,6 +82,8 @@ To turn the kit on and off, instead of (un)plugging the battery we found it a lo
 
 <img alt="Photo of 1-channel channel stack-up with mechanical details" src="https://github.com/jwnimmer/upiez/raw/main/images/single_assy.jpg" width="200px" />
 
+It's best to test each component by itself (the upiez and boost board) before starting to wire them up.
+
 This photo shows how we chose to assemble the 1-channel kit:
 * On the "inner" side of each of the two boards in the stack, cover metal surfaces with kapton tape to prevent a short circuit.
 * Use ~3 pieces of double-sided tape as a spacer under each of the two screw holes on the side of the upiez with the small green LEDs (D1 & D2, top of photo).
@@ -105,7 +107,9 @@ We designed upiez to use right-angle connectors and to match the footprint of th
 
 ### Quad channel version: assembly details
 
-TBD
+Gather all of the parts before starting.  That includes having upiez boards fully finished -- the two connectors soldered on, and the power wires soldered onto the bottom of the board.
+
+It's best to test each component by itself (the upiez and power board) before starting to wire them up.
 
 * Use the following mechanical fasteners (required quantities listed are pieces, not packs):
   * 4x [93805A120](https://www.mcmaster.com/nav/enter.asp?partnum=93805A120) 18-8 Stainless Steel Threaded Rod, M2.5 x 0.45 mm Thread Size, 50 mm Long, Packs of 10
@@ -113,6 +117,10 @@ TBD
   * 12x [94669A104](https://www.mcmaster.com/nav/enter.asp?partnum=94669A104)	Aluminum Unthreaded Spacer, 4.500 mm OD, 10 mm Long, for M2.5 Screw Size
   * 4x [94669A094](https://www.mcmaster.com/nav/enter.asp?partnum=94669A094) Aluminum Unthreaded Spacer, 4.500 mm OD, 3 mm Long, for M2.5 Screw Size
   * 40x [90940A102](https://www.mcmaster.com/nav/enter.asp?partnum=90940A102) Polycarbonate Plastic Washer for M2.5 Screw Size, 2.7 mm ID, 5.0 mm OD, Packs of 25
+
+Cover the top of the barrel connector with a little kapton tape, just to make sure it doesn't short onto the board above it. There should be enough clearance, but if you have a large blob of solder on the bottom of the nearby board there might be contact.
+
+I started from the USB board and worked my way up. It's probably fine either way.  Use a washer under every nut.  I also used washers on _both_ sides of each spacer (thus the 40x washers shown above), but that was probably overkill.  One washer per spacer should be enough to separate the boards so they don't short, and would save some money. Finish fitting all four bolts' worth of fasteners before using any tools to start tightening.  Tighten each of the four corners a little bit at a time, to keep everything squared up.
 
 ## PCB assembly
 
@@ -162,13 +170,40 @@ This is the simplest of the harnesses. Your LED strip might already come with ba
 
 ### Single channel power / battery
 
-[22 AWG stranded 2-conductor cable](https://www.amazon.com/dp/B077XBWX8V)
+<img alt="Photo of single channel stack-up with power system" src="https://github.com/jwnimmer/upiez/raw/main/images/single.jpg" width="200px" />
 
-TBD
+This explains the power wiring for the single-channel example. The goal is to connect a 9V battery to the boost converter with an inline switch.
 
-### Dual channel power pigtails
+Example parts list:
+* 9V battery clip with wire leads.
+* [Automotive rocker switch, pre-wired](https://www.amazon.com/dp/B07S2QJKTX)
+* [22 AWG stranded 2-conductor cable](https://www.amazon.com/dp/B077XBWX8V)
 
-TBD
+The switch breaks the connection betewen the battery and the input to the boost board. It works equally well breaking either the positive or negative connection.
+
+Example with the switch on negative connection, matching in the picture above:
+* Solder one end of the 2-conductor cable to the battery leads (red to red, black to black).
+  * Use heat shrink similarly to the piezo harness, above.
+* On the other end of the 2-conductor cable:
+  * Solder red to the "IN +" hole on the boost board.
+  * Solder black to one of the switch's leads.
+  * Solder the other lead to the "IN -" hold on the boost board.
+
+I used the same stranded 2-conductor cable to connect the "OUT +" and "OUT -" from the boost board to the VDC and GND pads on the upiez. Remember to adjust the boost board voltage output _before_ connecting it to the upiez.
+
+### Quad channel power pigtails
+
+<img alt="Photo of 4-channel channel stack-up with USB power" src="https://github.com/jwnimmer/upiez/raw/main/images/quads.jpg" width="300px" />
+
+For the stack-up of 4 piez and the 1 adafruit USB-C board, I used the following procedure for power wiring:
+* Solder red and black wires onto each upiez. Be sure to have them pointing in the direction you want for the stack-up (probably the same side as the Adafruit terminal block).
+* Assemble the stack with screws, bolts, spacers, washers, etc.
+* Cut one of pair of red and black wires and attach to the termin block on the Adafruit.
+* Gather all 5 wires of each color into a pigtail.
+* Zip tie the wires onto the spacers to avoid fatigue.
+* Solder each pigtail and cover with heat shirink.
+
+I used solid hookup wire when I did this, which ended up being bit too stiff. Next time, I'd try the same stranded 2-conductor cable used everywhere else.
 
 ## Mechanical drawing
 
@@ -210,3 +245,5 @@ For the 4-channel assembly, total cost is 4 * (6.35 + 2.00 + 1.00) + 9.95 + 25.6
 Reading other people's take on this kind of project was a great help in my own design. My primary sources were:
 * Davide Gironi: https://davidegironi.blogspot.com/2014/06/drum-light-trigger-that-uses-leds-ne555.html
 * Sam vs Sound: https://samvssound.com/2017/11/24/555-based-piezo-trigger/
+
+Thanks to [KiCAD EDA](https://www.kicad.org/).
