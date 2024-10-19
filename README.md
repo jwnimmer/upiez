@@ -207,7 +207,7 @@ I used solid hookup wire when I did this, which ended up being bit too stiff. Ne
 
 ## Mechanical drawing
 
-TBD
+<img alt="Mechanical drawing" src="https://github.com/jwnimmer/upiez/raw/main/images/mechanical.png" height="400px" />
 
 ## Costs
 
