@@ -1,0 +1,8 @@
+"Reference","Qty","Manufacturer","MfgPartNum","Value","Description","Package","DigiKey"
+"C1,C2,C3,C4","4","TDK","C1608X5R1E105K080AC","1uF","1uF 10% 25V Ceramic Capacitor X5R","0603","445-5146-1-ND"
+"D1,D2","2","Lite-On","LTST-C190KGKT","~","Green LED 35mcd <30mA","0603","160-1435-1-ND"
+"Q1,Q2","2","Diodes Inc","DMN2046U-7","DMN2046U","MOSFET N-Ch 20V 3.4A","SOT-23-3","DMN2046U-7DICT-ND"
+"R1,R2","2","Panasonic","ERJ-2RKF3300X","330","RES 330 Ohms1% 1/10W","0402","P330LCT-ND"
+"U1","1","TI","TLC555IDR","TLC555","555 CMOS Timer","SOIC-8","296-1337-1-ND"
+"U2","1","Diodes Inc","AP7380-33Y-13","AP7380","IC REG LINEAR 3.3V 150mA","SOT-89-3","AP7380-33Y-13DICT-ND"
+"VR1,VR2","2","Bourns","3314J-1-104E","100K","TRIMMER TOP J LEAD","SMD","3314J-104ECT-ND"
