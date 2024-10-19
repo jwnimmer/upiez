@@ -137,7 +137,7 @@ After that, hand solder the connectors:
   * If you are building a single-channel board and don't care about the right angle header, you can use any cheap [0.100" pitch pin header](https://www.amazon.com/dp/B0CZ6VNLGZ) instead. The piezo harness will exit from the top of the board so will be less ergonomic to use, but if you already have 0.100" pin headers lying around will be easier and cheaper to solder up.
 * VDC and GND are on solder pads on the bottom of the board, for wires.
   * For me, soldering in the [22 AWG stranded 2-conductor cable](https://www.amazon.com/dp/B077XBWX8V) was easier than solid wires.
-  * Note that each of the two the pads is right next to a through-hole pin on the same circuit, so it's OK for the wire solder to join up with the through-hole solder.
+  * Note that each of the two the pads is right next to a through-hole pin on the same circuit, so it's OK for the wire solder to join up with the through-hole solder. The dashed line indicates the terminals that are all the same (one for VDC, one for GND).
 
 In our first build we soldered J1 then J2 then the wires. This ended up being somewhat of a headache because J1 is very thoroughly connected to the board's ground plane and its metal shield, so the ground pin of J2 and the GND wire both struggled to flow evenly with the iron we used due to heat leaking away quickly. Next time, we should probably solder J1's shield pins last.
 
